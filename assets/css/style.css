@@ -52,6 +52,18 @@ hr {
   width: 100%;
 }
 
+.header-logo {
+  width: 134px;
+}
+
+.logo-campanha {
+  width: 288px;
+}
+
+.hero-pic {
+  width: 491px;
+}
+
 .oportunity-box {
   background-color: var(--light-purple);
   width: fit-content;
@@ -212,6 +224,10 @@ hr {
   display: flex;
 }
 
+.live-picture {
+  width: 491px;
+}
+
 .footer {
   display: flex;
   justify-content: center;
@@ -221,6 +237,10 @@ hr {
 
 .footer-logo {
   margin-bottom: 45px;
+}
+
+.footer-logo img {
+  width: 134px;
 }
 
 .social-media i {
