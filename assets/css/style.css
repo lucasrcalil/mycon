@@ -71,6 +71,9 @@ hr {
   padding: 6px 27px 6px 27px;
   border-radius: 60px;
   margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
@@ -261,4 +264,172 @@ hr {
   display: flex;
   justify-content: space-between;
   margin: 27px 0px 0px 0px;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    font-size: 17px !important;
+  }
+
+  .container {
+    width: 360px;
+  }
+
+  .hero-pic {
+    display: none;
+  }
+
+  .hero-content {
+    flex-direction: column-reverse;
+    flex-grow: 0;
+  }
+
+  .logo-campanha {
+    width: 160px;
+    margin-bottom: 15px;
+  }
+
+  .oportunity-box {
+    width: fit-content;
+    height: 16px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 20px;
+    line-height: 21px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0px;
+  }
+
+  .title-text {
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+    line-height: 130%;
+    margin-bottom: 30px;
+  }
+
+  br {
+    margin-bottom: 10px;
+    display: block;
+    content: "";
+  }
+
+  button {
+    width: 294px;
+    margin-bottom: 45px;
+  }
+
+  .hero {
+    height: fit-content;
+  }
+
+  .header-logo {
+    width: 90px;
+  }
+
+  .section {
+    margin-bottom: 70px;
+  }
+
+  .section-title h3 {
+    font-size: 20px;
+  }
+
+  .section-title p {
+    font-size: 17px;
+  }
+
+  .box {
+    flex-direction: column;
+    margin-bottom: 45px;
+  }
+
+  .box br {
+    margin-bottom: 0px;
+    display: block;
+    content: "";
+  }
+
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+
+  .desc-box h4 {
+    font-size: 18px;
+    max-width: 80%;
+  }
+
+  .desc-box p {
+    font-size: 17px;
+  }
+
+  .upper {
+    margin-bottom: 20px;
+  }
+
+  .mobile-no-space {
+    margin-bottom: 0px !important;
+  }
+
+  .live-pic {
+    width: 100%;
+  }
+
+  .live-pic img {
+    width: 360px;
+  }
+
+  .row {
+    flex-direction: column-reverse !important;
+  }
+
+  .align-left {
+    align-items: center !important;
+    margin: 60px 0px 0px 0px;
+  }
+
+  .s-secondary h3 {
+    text-align: center;
+  }
+
+  .s-secondary p {
+    text-align: center;
+  }
+
+  .large-gap {
+    margin-right: 0px !important;
+  }
+
+  .footer-logo img {
+    width: 92px;
+  }
+
+  .social-media i.l {
+    margin-right: 0px;
+  }
+
+  .social-media {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    flex-direction: column;
+    text-align: center;
+    font-size: 15px;
+    gap: 20px;
+  }
 }
