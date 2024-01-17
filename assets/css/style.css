@@ -431,7 +431,7 @@ a {
   }
 
   .social-media {
-    width: 100%;
+    width: 360px;
     display: flex;
     justify-content: space-between;
   }
