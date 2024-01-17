@@ -358,6 +358,7 @@ a {
   .box {
     flex-direction: column;
     margin-bottom: 45px;
+    padding: 0px 20px;
   }
 
   .box br {
@@ -369,6 +370,10 @@ a {
   .icon {
     width: 35px;
     height: 35px;
+  }
+
+  .desc-box {
+    max-width: 360px;
   }
 
   .desc-box h4 {
